@@ -62,6 +62,7 @@ public class Q2_1 extends Activity {
                         .create()
                         .show();
                 et.requestFocus();
+                return;
             }
             ap.add(p);
             et.getText().clear();
